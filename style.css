@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    font-size: 1.5rem;
+    background-color: #222222;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 20vw;
+    margin: 20px auto 0 auto;
+    background-color: rgba(255,255,255,0.1);   
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-vertical: center;
+    font-size: 4vw;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+    float: left;
+}
+
+.coin {
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+}
+
+.number {
+    color: white;
+    font-family: 'Comfortaa', cursive; 
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    padding-top: 3%;
+}
