@@ -13,4 +13,4 @@ const animateValue = (id, start, end, duration) => {
         }
     }, stepTime);
 }
-animateValue("number", 1, 1180, 1000);
+animateValue("number", 1, 1160, 1000);
