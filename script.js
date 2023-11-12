@@ -1,4 +1,4 @@
-4const animateValue = (id, start, end, duration) => {
+const animateValue = (id, start, end, duration) => {
     if (start === end) return;
     var range = end - start;
     var current = start;
