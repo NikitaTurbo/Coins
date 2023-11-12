@@ -1,4 +1,4 @@
-const animateValue = (id, start, end, duration) => {
+4const animateValue = (id, start, end, duration) => {
     if (start === end) return;
     var range = end - start;
     var current = start;
@@ -13,4 +13,4 @@ const animateValue = (id, start, end, duration) => {
         }
     }, stepTime);
 }
-animateValue("number", 1, 1160, 1000);
+animateValue("number", 1, 4444, 1000);
